@@ -1,0 +1,51 @@
+.container{
+    height: 40vh;
+    margin: 20px;
+}
+
+.container_2{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    font-size: 25px;
+}
+
+ul li{
+    border: 1px solid blue;
+    padding: 15px;
+    margin: 2px;
+    background-color:rgb(66, 66, 225);
+    border-radius: 15px;
+    color: white;
+    font-weight: 800 !important;
+    box-shadow: -5px 5px 2px gray;
+}
+
+ul li:active{
+    
+    background-color: black;
+    color: rgb(132, 226, 239);
+    
+}
+ul li:hover{
+    background-color: rgb(6, 2, 59);
+    color: rgb(107, 106, 106);
+    transition: 0.3s
+}
+ li{
+    list-style-type: none;
+    cursor: pointer;
+}
+.para{
+    display: flex;
+    justify-content: center;
+}
+
+
+#v1 #v2 #v3{
+    padding: 10px;
+}
